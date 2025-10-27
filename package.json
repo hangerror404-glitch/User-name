@@ -1,14 +1,14 @@
 {
   "name": "smart-dropshipping",
-  "version": "1.0.0",
-  "description": "هوشمندترین سیستم دراپ شیپینگ با AI",
+  "version": "2.0.0",
+  "description": "سیستم حرفه‌ای دراپ شیپینگ با اتصال به AliExpress",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node app.js",
-    "build": "npm install"
+    "dev": "node app.js"
   },
-  "keywords": ["dropshipping", "ai", "iran", "ecommerce"],
+  "keywords": ["dropshipping", "aliexpress", "scraper", "ecommerce"],
   "author": "You",
   "license": "MIT",
   "dependencies": {
