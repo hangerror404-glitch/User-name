@@ -75,6 +75,8 @@ app.get('/', (req, res) => {
                     border-radius: 8px;
                     margin: 10px 0;
                     font-size: 16px;
+                    color: #333;
+                    background: white;
                 }
             </style>
         </head>
@@ -226,10 +228,9 @@ app.get('/api/search', async (req, res) => {
         const { keyword } = req.query;
         
         // در این نسخه از داده‌های نمونه استفاده می‌کنیم
-        // نسخه بعدی واقعاً از AliExpress داده می‌گیرد
         const sampleProducts = [
             {
-                title: `\${keyword} - مدل A`,
+                title: \`\${keyword} - مدل A\`,
                 price: "US $12.99",
                 store: "Global Store",
                 rating: "4.7",
@@ -237,7 +238,7 @@ app.get('/api/search', async (req, res) => {
                 finalPrice: "$16.89 (سود: 30%)"
             },
             {
-                title: `\${keyword} - مدل B`,
+                title: \`\${keyword} - مدل B\`,
                 price: "US $8.50",
                 store: "Tech World", 
                 rating: "4.5",
@@ -245,7 +246,7 @@ app.get('/api/search', async (req, res) => {
                 finalPrice: "$11.05 (سود: 30%)"
             },
             {
-                title: `\${keyword} - مدل حرفه‌ای`,
+                title: \`\${keyword} - مدل حرفه‌ای\`,
                 price: "US $25.75",
                 store: "Premium Seller",
                 rating: "4.9", 
