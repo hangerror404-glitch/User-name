@@ -1,11 +1,10 @@
 import express from 'express';
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 10000;
 
 app.use(express.json());
 
-// صفحه اصلی
 app.get('/', (req, res) => {
     res.send(`
         <!DOCTYPE html>
@@ -107,5 +106,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log('🎉 سرور اجرا شد: http://localhost:' + PORT);
+    console.log('🎉 سرور اجرا شد روی پورت: ' + PORT);
 });
