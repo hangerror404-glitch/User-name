@@ -1,14 +1,8 @@
 {
-  "name": "smart-dropshipping",
-  "version": "2.0.0",
-  "description": "سیستم دراپ شیپینگ",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
     "express": "^4.18.0",
-    "axios": "^1.4.0",
-    "cheerio": "^1.0.0-rc.12"
+    "axios": "^1.4.0", 
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^21.0.0"
   }
 }
