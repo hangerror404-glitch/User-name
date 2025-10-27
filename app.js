@@ -1,6 +1,5 @@
-// خط اول رو تغییر بده به:
-const RealAliExpressScraper = require('./real-scraper.js');
-
+const SimpleAliExpressScraper = require('./real-scraper.js');
+const realScraper = new SimpleAliExpressScraper();
 // و این خط رو اضافه کن:
 const realScraper = new RealAliExpressScraper();
 
